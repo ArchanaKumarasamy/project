@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <style>
+        
+        body {
+            margin-left: 125px;
+            height: 100%;
+             }
+
+        .def {
+
+            text-align: center;
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            box-sizing: center;
+            max-width: 1000px;
+            height: 500px;
+            margin: 20px;
+        }
+
+        .abc h1 {
+
+            text-align: right;
+            font-family: serif;
+            font-size: 50px;
+            margin: 50px;
+
+        }
+
+
+
+
+        .abc p {
+            color: grey;
+            font-size: 3em;
+            font-family: fantasy;
+            margin-bottom: 30px;
+        }
+
+        ul li {
+            display: inline-block;
+            margin-top: 0px;
+            margin-right: 5px;
+            background-color: aliceblue;
+
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            background-color: burlywood;
+
+        }
+
+
+        .uu {
+            background-color: #439093;
+            height: 100px;
+            padding: 7px;
+            text-align: right;
+            box-sizing: center;
+            max-width: 1060px;
+            margin-left: -90px;
+            line-height: -10px;
+            border-radius: 10px;
+
+
+
+
+        }
+
+        h1 {
+            color: black;
+            text-align: left;
+        }
+
+        .home-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background: linear-gradient(white, blue);
+            color: white;
+            text-decoration: none;
+            border-radius: 3px;
+            font-size: 1em;
+            transition: background-color 0.3s;
+        }
+
+        .home-button:hover {
+            background-color: blue;
+        }
+
+        .home-button:hover {
+            background-color: green;
+        }
+
+        .jkl {
+
+            text-align: center;
+            background-color: lightgray;
+            border: 30px green;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            box-sizing: center;
+            max-width: 980px;
+            height: 140px;
+            margin: 30px;
+        }
+
+        .column {
+            float: left;
+            width: 200px;
+            text-align: center;
+            display: block;
+            background-color: transparent;
+            border: 1px solid transparent;
+            margin-right: 10px;
+            margin-bottom: 1px;
+            padding: 30px;
+            font-size: 20px;
+        }
+
+        b {
+            color: blue;
+        }
+
+        .def1 {
+            text-align: center;
+            background-color: white;
+            padding: 10px;
+            border-radius: 10px;
+            box-sizing: center;
+            max-width: 1000px;
+            height: 500px;
+            margin: 20px;
+        }
+
+        .tp {
+            color: blue;
+            text-align: center;
+            font-family: cursive;
+        }
+
+        .column1 {
+            float: left;
+            width: 200px;
+            text-align: center;
+            display: block;
+            background-color: transparent;
+            border: 1px solid transparent;
+            margin-right: 10px;
+            margin-bottom: 1px;
+            padding: 10px;
+            font-size: 20px;
+        }
+
+        .column1:hover {
+
+            transform: scaleX(-1);
+
+        }
+
+        span {
+            color: blueviolet;
+            padding: 10px;
+        }
+
+        .xyz {
+            text-align: center;
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+
+            box-sizing: center;
+            max-width: 980px;
+            height: 200px;
+            margin: 30px;
+        }
+
+        .def2 {
+            text-align: center;
+            background-color: lightgrey;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            box-sizing: center;
+            max-width: 1000px;
+            height: 500px;
+            margin: 20px;
+
+        }
+
+        .box {
+            float: left;
+            height: 300px;
+            width: 200px;
+
+            display: block;
+            background-color: transparent;
+            border: 1px solid transparent;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            margin-right: 30px;
+            margin-bottom: 1px;
+            padding: 40px;
+            font-size: 15px;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        h2 {
+            text-align: left;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 15px 30px;
+            background: linear-gradient(#F09B93, #439093);
+            color: white;
+            text-decoration: none;
+            border-radius: 3px;
+            font-size: 1em;
+            transition: background-color 0.3s;
+
+        }
+
+        .zz {
+
+            background-color: black;
+            border: 30px green;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+
+            max-width: 1600px;
+            height: 50px;
+            margin: 0px;
+            color: white;
+        }
+
+        .home-button1 {
+            display: inline-block;
+            padding: 15px 30px;
+            background: linear-gradient(red, blue);
+            color: white;
+            text-decoration: none;
+            border-radius: 3px;
+            font-size: 1em;
+            transition: background-color 0.3s;
+        }
+
+        .bb {
+            text-align: center;
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            box-sizing: center;
+            max-width: 1000px;
+            height: 500px;
+            margin: 20px;
+        }
+
+        .xyz1 {
+            text-align: center;
+            background-color: white;
+            padding: 10px;
+            border-radius: 30px;
+
+            box-sizing: center;
+            max-width: 980px;
+            height: 200px;
+            margin-left: 0px;
+        }
+
+        .column2 {
+            float: left;
+            width: 200px;
+            text-align: center;
+            display: block;
+            background-color: transparent;
+            border: 1px solid transparent;
+            margin-right: 10px;
+            margin-bottom: 1px;
+            padding: 10px;
+            font-size: 20px;
+        }
+
+        .column2:hover {
+            transform: scale(1.3);
+
+        }
+
+        .tp1 {
+            color: black;
+            text-align: center;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 55px;
+        }
+
+        .aaa {
+            color: black;
+            padding: 10px;
+        }
+
+        .ss {
+            font-size: 20px;
+        }
+
+        .cc {
+            text-align: left;
+
+        }
+
+        .def3 {
+            text-align: center;
+            background-color: black;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            box-sizing: center;
+            max-width: 1000px;
+            height: 300px;
+            margin: 20px;
+        }
+
+        .dd {
+            color: white;
+            text-align: center;
+
+        }
+
+
+
+        .zz1 {
+
+            background-color: black;
+            border: 30px green;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+
+            max-width: 1000px;
+            height: 50px;
+            margin: 15px;
+
+        }
+
+        .dd {
+            color: white;
+
+        }
+
+        .bb1 {
+
+            background-color: lightgrey;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+
+            max-width: 1000px;
+            height: 500px;
+            margin: 20px;
+        }
+
+        #sticky {
+            position: sticky;
+            top: 0;
+            z-index: 99;
+
+        }
+    </style>
+</head>
+
+<body>
+    <center>
+        <div id="sticky">
+            <div>
+            <header>
+
+                <ul class="uu" id="uu">
+
+                    <img src="assest\logo.jpg" height="50px" width="50px"
+                        style="float: left;padding: 20px; border-radius: 50%;">
+                    <h1>START MUSIC&#119136;&#119136;&#119136;&#119136;</h1>
+                    <li><a href="#uu">HOME</a></li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li><a href="about.html">ABOUT US</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li><a href="contact2.html">CONTACT</a></li>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <li><a href="#bb1">REVIEWS</a></li>
+
+                </ul>
+
+            </header>
+        </div>
+    </div>
+    </center>
+
+    <div class="def">
+        <div class="abc">
+            <img src="assest\m2.jpg" height="400px" width="400px" style="float: left;">
+            <h1><u>Best quality products</u></h1>
+            <p>Join the musical feast</p>
+            <a href="explore.html" class="home-button">EXPLORE</a>
+        </div>
+    </div>
+
+    <div class="jkl">
+        <div class="column">
+            <img src="./assest/ship1.png" alt="aa" style="width: 100%; height: 100%; margin-top: -50px;">
+            <p> free <b>shiping </b>on order above Rs 599/-</p>
+        </div>
+        <div class="column">
+            <img src="assest\ship2.jpg" alt="aa" style="width: 100%; height: 130px; margin-top: -50px;">
+            <p> payments and data<b>security</b></p>
+        </div>
+        <div class="column">
+            <img src="assest\ship3.jpg" alt="aa" style="width: 100%; height: 100%; margin-top: -50px;">
+            <p>New discounts <b>cuppons</b> in every week</p>
+        </div>
+
+    </div>
+    <div class="def1">
+        <h1 class="tp">BEST SELLING PRODUCTS!!!</h1>
+        <img src="assest\bk1.jpg">
+    </div>
+    <div class="xyz">
+        <div class="column1">
+            <img src="assest\image1.jpg" alt="keyboard" style="width: 100%; height: 200px; margin-top: -90px;">
+            <p>INSTRUMENTS<span><br>KEYBOARD</br> RS.5000</span></p>
+        </div>
+        <div class="column1">
+            <img src="assest\images2.jpg" alt="keyboard" style="width: 100%; height: 200px; margin-top: -90px;">
+            <p>INSTRUMENTS<span><br>DRUMS</br> RS.50000</span></p>
+        </div>
+        <div class="column1">
+            <img src="assest\images.jpg" alt="keyboard" style="width: 100%; height: 200px; margin-top: -90px;">
+            <p>INSTRUMENTS<span><br>VIOLIN</br> RS.30000</span></p>
+        </div>
+        <div class="column1">
+            <img src="assest\images 3.jpg" alt="keyboard" style="width: 100%; height: 200px; margin-top: -90px;">
+            <p>INSTRUMENTS<span><br>VIOLIN</br> RS.30000</span></p>
+
+        </div>
+    </div>
+    <div class="def2">
+        <div class="box"
+            style="background-color: white; margin-top: 100px;background-image: url('./assest/i5.jpg'); background-position: center;background-repeat: no-repeat;">
+            <h2>CARNATIC CLASSICAL MUSIC INSTRUMENTS</h2>
+            <p>Composed in a particular raga,that means do not deviate from the notes in the raga.</p>
+            <a href="registration1.html" class="button" style="transform: translateY(50px);">BUYNOW&#128722;</a>
+
+        </div>
+        <div class="box"
+            style="background-color: white; margin-top: 100px;background-image: url('./assest/12.jpg'); background-position: center;background-repeat: no-repeat;">
+            <h2>FOLK MUSIC INSTRUMENTS</h2>
+            <p>Used to paly folk music,the music played by gatherings of friends and family.</p>
+            <a href="registration1.html" class="button" style="transform: translateY(120px);">BUYNOW&#128722;</a>
+
+
+        </div>
+        <div class="box"
+            style="background-color: white; margin-top: 100px;background-image: url('./assest/13.jpg'); background-position: center;background-repeat: no-repeat;">
+
+            <h2>POP MUSIC INSTRUMENTS</h2>
+            <p>The popular,light,and commercial sound that characterizes this style.</p>
+            <a href="registration1.html" class="button" style="transform: translateY(120px);">BUYNOW&#128722;</a>
+
+
+        </div>
+    </div>
+    <div class="jkl">
+        <div class="zz">
+            <p style="font-size: 30px; margin-top: -10px;"> GET 25% OF ON YOUR FIRST PURCHASE!</p>
+            <a href="explore.html" class="home-button1" style="margin-top: -10px;">SHOPNOW</a>
+        </div>
+        <p style="color: black; font-size: 20px;">TRY IT FOR FREE. NO NEED REGITRATION.</p>
+    </div>
+
+
+    <div class="bb">
+        <h1 class="tp1">TRENDING PRODUCTS</h1>
+        <div class="xyz1">
+
+            <div class="column2">
+                <img src="assest\image1.jpg" alt="keyboard" style="width: 100%; height: 200px; margin-top: -20px;">
+                <p>INSTRUMENTS<span class="aaa"><br>KEYBOARD</br>&#9734 &#9734 &#9734 &#9734 &#9734<br>RS.5000</span>
+                </p>
+            </div>
+            <div class="column2">
+                <img src="assest\images2.jpg" alt="keyboard" style="width: 100%; height: 200px; margin-top: -20px;">
+                <p>INSTRUMENTS<span class="aaa"><br>DRUMS</br>&#9734 &#9734 &#9734 &#9734 &#9734<br> RS.50000</span></p>
+            </div>
+            <div class="column2">
+                <img src="assest\images.jpg" alt="keyboard" style="width: 100%; height: 200px; margin-top: -20px;">
+                <p>INSTRUMENTS<span class="aaa"><br>VIOLIN</br>&#9734 &#9734 &#9734 &#9734 &#9734<br> RS.30000</span>
+                </p>
+            </div>
+            <div class="column2">
+                <img src="assest\images 3.jpg" alt="keyboard" style="width: 100%; height: 200px; margin-top: -20px;">
+                <p>INSTRUMENTS<span class="aaa"><br>VIOLIN</br>&#9734 &#9734 &#9734 &#9734 &#9734<br>RS.30000</span></p>
+            </div>
+        </div>
+    </div>
+    <div class="bb1" id="bb1">
+        <h1 style="text-align: center;">CUSTOMER REVIEWS</h1>
+        <p>I love all the products of Start Music!!... I really love buying inStart Music!! ... Every one must
+            experience this....</p>
+        <img src="assest\c1.jpg" alt="aaa" style="width: 60px; height: 60px; border-radius: 50%;">
+        <p style="font-size: smaller;">ARCHANA</p>
+        <p>I like the delivery of Start Music!! which is always on time. Thank you Start Music!!. And product quality is
+            also fine..</p>
+
+
+        <img src="assest\c2.jpg" alt="aaa" style="width: 60px; height: 60px; border-radius: 50%;">
+        <p style="font-size: smaller;">ATCHAYA</p>
+        <p>Allmost all items get delivered... Love to shop on Start Music!!.... App is very user friendly... Delivery is
+            also fast.
+            Happy Customer</p>
+
+
+        <img src="assest\c3.jpg" alt="aaa" style="width: 60px; height: 60px; border-radius: 50%;">
+        <p style="font-size: smaller;">SANDHYA</p>
+        <p>Great user experience on your website. I found exactly what I was looking for at a great price. I will
+            definitely be telling my friends.</p>
+
+    </div>
+
+    <div class="def3">
+
+        <table class="dd" style="width: 800px; border-color: antiquewhite;">
+            <tr>
+                <th style="width: 450px;"><img src="assest\logo.jpg"
+                        style="height: 50px; width: 50px; margin-left: -300px; border-radius: 50%;"></th>
+                <th style="width: 200px;">OUICK LINKS</th>
+                <th style="width: 200px;">DOWNLOAD OUR MOBILE APP</th>
+            </tr>
+            <tr>
+                <td> Fast shipping and excellent customer service. The product was even better than expected. I
+                    will definitely be a returning customer.
+                    Great user experience on your website. I found exactly what I was looking for at a great price. I
+                    will definitely be telling my friends.</td>
+                <td>ABOUT<br>CHECKOUT<br>CART<br>CONTACT<br>HOME<br>MYACCOUNT<br>SHOP
+                </td>
+                <td> Voluptate molestias, maiores dignissimos enim fugiat tenetur cumque vero, ad consectetur
+                    corrupti eius? Vel,
+                    eveniet ipsa? Quasi ipsam deleniti natus quisquam cumque!</td>
+            </tr>
+        </table>
+
+    </div>
+
+    <div class="zz1">
+        <center>
+            <footer style="color: white;">
+                <p>Copyright&copy;2024|MUSIC STORE</p>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+
+
+            </footer>
+        </center>
+    </div>
+
+
+
+
+</body>
+
+</html>
